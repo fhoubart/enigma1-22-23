@@ -36,5 +36,22 @@ def keyPressed(event):
 # Ajout d'évènement sur les touches
 fenetre.bind("<Key>",keyPressed)
 
+
+oval = monCanvas.create_oval([200,200], (300,300), fill='black', outline='black', width=2)
+
+print("avant le mainloop")
+
 # On active la fenêtre pour déclencher la gestion des évènements
 fenetre.mainloop()
+
+# Le mainloop équivaut à peut de chose prèt à :
+#while True:
+#    if le bouton est cliqué :
+#        pass
+#    if la souris est sur le rectangle:
+#        pass
+#    if la fenetre est redimensionnée:
+#        pass
+
+print("après le mainloop")
+
