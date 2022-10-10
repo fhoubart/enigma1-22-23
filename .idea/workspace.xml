@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fedf1ded-7edc-4169-9745-66398a4561fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-jeu-allumettes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-tableaux.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-tkinter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-plateau.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-entrees_sorties.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-entrees_sorties.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-tableaux.py" beforeDir="false" afterPath="$PROJECT_DIR$/02-tableaux.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-jeu_de_l_oie.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-jeu_de_l_oie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-entrees_sorties.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-entrees_sorties.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +64,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="714" y="336" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1664879576085" />
-    <state x="668" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1664870140202">
+    <state x="668" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1665131985199">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="668" y="354" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1664870140201" />
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1664886491106">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="668" y="354" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1665131985199" />
+    <state x="94" y="94" width="1519" height="742" key="dock-window-1" timestamp="1665150925981">
+      <screen x="0" y="0" width="1707" height="930" />
     </state>
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1664886491106" />
+    <state x="94" y="94" width="1519" height="742" key="dock-window-1/0.0.1707.930/3840.0.1280.690@0.0.1707.930" timestamp="1665150925981" />
+    <state x="548" y="158" width="672" height="599" key="search.everywhere.popup" timestamp="1665150917434">
+      <screen x="0" y="0" width="1707" height="930" />
+    </state>
+    <state x="548" y="158" width="672" height="599" key="search.everywhere.popup/0.0.1707.930/3840.0.1280.690@0.0.1707.930" timestamp="1665150917434" />
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1664892323825" />
   </component>
 </project>

@@ -22,8 +22,13 @@ print(variableTableau[2]) # -> fraise
 variableTableau.append('banane')
 print(variableTableau)
 
+# Modifier un élément du tableau
+variableTableau[1] = "cerise"
+
 # Longueur (taille) d'un tableau -> fonction len
 print(len(variableTableau))
+
+# Attention, l'index du dernier élément du tableau est len(tableau)-1
 
 
 ########################
@@ -66,7 +71,7 @@ for index in range(0,5):
 
 
 # Entrer des noms d'utilisateur
-nbJoueurs = int(input("Combien de joueurs ? "))
+#nbJoueurs = int(input("Combien de joueurs ? "))
 
 
 # Boucler autant de fois que de joueurs
@@ -95,30 +100,84 @@ print("La moyenne de 2, 4 et 6 est " + str(variable))
 def min(tableau):
     """Calcule la valeur minimal contenue dans un tableau
     :param tableau: le tableau dans lequel on cherche le minimum
-    :return: la plus petite valeur contenue dans le tableau
+    :return: la plus petite valeur contenue dans le tableau, ou 0 si le tableau est vide
     """
-    pass
-    return
+    if len(tab) == 0:
+        return 0
+    minValue = tableau[0]
+    for index in range(0,len(tableau)):
+        if tableau[index] < minValue:
+            minValue = tableau[index]
+    return minValue
 
 def max(tableau):
     """Calcule la valeur maximale contenue dans un tableau
         :param tableau: le tableau dans lequel on cherche le maximum
         :return: la plus grande valeur contenue dans le tableau
     """
-    resultat = 1
-    return resultat
+    maxValue = tableau[0]
+    for elt in tableau:
+        if elt > maxValue:
+            maxValue = elt
+    return maxValue
 
 def moyenne(tableau):
     """Calcule la moyenne de toutes les valeurs contenues dans un tableau
         :param tableau: le tableau pour lequel on veut calculer la moyenne
         :return: la moyenne de toutes les valeurs du tableau
     """
-    resultat = 1 # calcule la moyenne de tous les éléments du tableau
-    return resultat
+    resultat = 0
+    for elt in tableau:
+        resultat = resultat + elt
+    return resultat/len(tableau)
+
+tab = [3,5,2,6,7,4]
+print(min(tab))
+print(max(tab))
+print(moyenne(tab))
+
+print("")
 
 
 
 
 
+
+
+
+
+
+
+print("a", end=" ")
+print("b", end=" ")
+
+print()
+
+
+
+
+
+
+
+
+for i in range(0,10):
+    for i in range(0,10):
+        print("x", end=" ")
+    print()
+
+print()
+
+
+
+for i in range(1,9):
+    print(str(i),end=" ")
+    for j in range(1,9):
+        r = i*j
+        if(r < 10):
+            text = " "+str(r)
+        else:
+            text = str(r)
+        print(text, end=" ")
+    print()
 
 
